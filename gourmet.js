@@ -1,7 +1,7 @@
 
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
-　for (const n of results.shop) {
+　for (const n of data.results) {
   console.log(n);
 }
 }
