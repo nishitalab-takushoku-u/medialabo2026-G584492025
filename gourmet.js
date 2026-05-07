@@ -1,7 +1,9 @@
 
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
-
+　for (const n of results.shop) {
+  console.log(n);
+}
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
