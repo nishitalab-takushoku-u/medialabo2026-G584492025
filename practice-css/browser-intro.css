@@ -25,6 +25,7 @@ div#zentai {
 	flex-direction: row;
 	grid-gap: 10px;  
 	width: 1024px;
+	padding: 5px;
 }
 
 div#zentai > div {
