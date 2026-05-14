@@ -29,5 +29,7 @@ function hantei() {
 }
 
 // ここから: ボタンを押した時のイベントハンドラとして hantei を登録
+let z = document.querySelector('button#kaito');
 
+z.addEventListener('click',hantei);
 // ここまで: ボタンを押した時のイベントハンドラとして hantei を登録
