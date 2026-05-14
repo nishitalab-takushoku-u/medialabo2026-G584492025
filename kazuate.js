@@ -19,7 +19,13 @@ function hantei() {
   // ここまで: 予想回数を1増やして，span#kaisu 要素のテキストを更新
   
   // ここから: テキストボックスに指定された数値を yoso に代入する
+  let x = document.querySelector('input[name="kazu"]');
+  let x2 = x.value;
+  let a = Number(x2);
   let yoso;
+  yoso = Number(a);
+  let q = document.querySelector('span#yosou');
+  q.textContent = yoso;
   // ここまで: テキストボックスに指定された数値を yoso に代入する
   
   // ここから: 正解判定する
