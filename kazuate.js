@@ -13,7 +13,7 @@ let kaisu = 0;
 function hantei() {
   // ここから: 予想回数を1増やして，span#kaisu 要素のテキストを更新
   kaisu = Number(kaisu+1);
-  let yosokaisu = kaisu+'回目の予想';
+  let yosokaisu = kaisu;
   let p = document.querySelector('span#kaisu');
   p.textContent = yosokaisu;
   // ここまで: 予想回数を1増やして，span#kaisu 要素のテキストを更新
