@@ -37,11 +37,11 @@ function hantei() {
     m = document.querySelector('p#result');
   m.textContent = 'まちがい．残念でした答えは '+kotae+' です．';
   }
-  if (Number(kaisu)>4&&Number(kotae)>(Number(a))){
+  if (Number(kaisu)===3&&Number(kotae)>(Number(a))){
     m = document.querySelector('p#result');
   m.textContent = 'まちがい．答えはもっと大きいですよ';
   }
-  if (Number(kaisu)>4&&Number(kotae)<(Number(a))){
+  if (Number(kaisu)===3&&Number(kotae)<(Number(a))){
     m = document.querySelector('p#result');
   m.textContent = 'まちがい．答えはもっと小さいですよ';
   }
