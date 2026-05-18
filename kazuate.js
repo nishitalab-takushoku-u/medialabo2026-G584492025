@@ -29,6 +29,9 @@ function hantei() {
   // ここまで: テキストボックスに指定された数値を yoso に代入する
   
   // ここから: 正解判定する
+  if (Number(a)===Number(kotae)){
+    let m = document.querySelector('p#result');
+  m.textContent = '正解です．おめでとう!';
   // 　　　　  正解/不正解のときのメッセージを表示する
 
   // ここまで: 正解判定する
