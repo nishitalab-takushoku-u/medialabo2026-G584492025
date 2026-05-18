@@ -32,6 +32,7 @@ function hantei() {
   if (Number(a)===Number(kotae)){
     let m = document.querySelector('p#result');
   m.textContent = '正解です．おめでとう!';
+  }
   // 　　　　  正解/不正解のときのメッセージを表示する
 
   // ここまで: 正解判定する
