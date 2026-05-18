@@ -29,6 +29,10 @@ function hantei() {
   // ここまで: テキストボックスに指定された数値を yoso に代入する
   
   // ここから: 正解判定する
+  if (Number(kaisu)>=4||m.textContent==='正解です．おめでとう!'){
+    m = document.querySelector('p#result');
+  m.textContent = '答えは '+kotae+' でした．すでにゲームは終わっています';
+  }
   if (Number(a)===Number(kotae)){
     let m = document.querySelector('p#result');
   m.textContent = '正解です．おめでとう!';
@@ -44,10 +48,6 @@ function hantei() {
   if (Number(kaisu)===3&&Number(kotae)<(Number(a))){
     m = document.querySelector('p#result');
   m.textContent = 'まちがい．答えはもっと小さいですよ';
-  }
-  if (Number(kaisu)>=4||m.textContent==='正解です．おめでとう!'){
-    m = document.querySelector('p#result');
-  m.textContent = '答えは '+kotae+' でした．すでにゲームは終わっています';
   }
   // 　　　　  正解/不正解のときのメッセージを表示する
 
