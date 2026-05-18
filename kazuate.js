@@ -33,6 +33,10 @@ function hantei() {
     let m = document.querySelector('p#result');
   m.textContent = '正解です．おめでとう!';
   }
+  if (Number(a)!==Number(kotae)&&Number(kaisu)<4){
+    m = document.querySelector('p#result');
+  m.textContent = 'まちがい．残念でした答えは '+kotae+' です．';
+  }
   // 　　　　  正解/不正解のときのメッセージを表示する
 
   // ここまで: 正解判定する
