@@ -45,6 +45,10 @@ function hantei() {
     m = document.querySelector('p#result');
   m.textContent = 'まちがい．答えはもっと小さいですよ';
   }
+  if (Number(kaisu)>=4||m.textContent==='正解です．おめでとう!'){
+    m = document.querySelector('p#result');
+  m.textContent = '答えは '+kotae+' でした．すでにゲームは終わっています';
+  }
   // 　　　　  正解/不正解のときのメッセージを表示する
 
   // ここまで: 正解判定する
